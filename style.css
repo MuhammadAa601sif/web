@@ -1,0 +1,68 @@
+form
+{
+    width: 280px;
+    height: 310px;
+    background-color: blue;
+    position: absolute;
+    top:140px;
+    left:490px;
+}
+.main
+{
+    padding: 10px;
+    padding-left: 20px;
+}
+input
+{
+    padding: 8px;
+    border: none;
+}
+@media only screen and (max-width:810px)
+{
+    form 
+    {
+        position: absolute;
+        left:150px;
+    }
+}
+@media only screen and (max-width:520px)
+{
+    form 
+    {
+        position: absolute;
+        left:70px;
+    }
+}
+@media only screen and (max-width:490px)
+{
+    form 
+    {
+        position: absolute;
+        left:30px;
+    }
+}
+@media only screen and (max-width:380px)
+{
+    form 
+    {
+        position: absolute;
+        left:28px;
+    }
+}
+@media only screen and (max-width:337px)
+{
+    form 
+    {
+        position: absolute;
+        left:8px;
+    }
+}
+button
+{
+    margin-top: 25px;
+    margin-left: 55px;
+    border-radius: 20px;
+    width: 134px;
+    padding: 6px;
+    border: none;
+}
